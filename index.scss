@@ -334,3 +334,125 @@ nav {
     font-weight: 700;
     font-size: 14px;
   }
+
+  /* Special */
+.special-icon {
+  height: 30px;
+  width: 30px;
+  margin: 15px;
+}
+
+.icon-text {
+  margin: 1px;
+   color: #404040;
+  font-weight: 700;
+
+}
+
+.specials:hover,
+.specials:focus {
+  background-color:#f2f4f9;
+}
+
+/* Ads */
+.ad1-photo, .ad2-photo, .ad3-photo {
+  height: 80%;
+  width: 80%;
+}
+
+/*Ticket */
+
+.ticket-header {
+  height:36px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+/*Dark Mode Toggle */
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+position: relative;
+  height: 26px;
+  width: 50px;
+  background-color: #111;
+  border-radius: 50px;
+}
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
+ 
+}
+
+.ball {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+  
+  .numbers {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 24px;
+    background-color: #c81e10;
+    padding-left: 10px;
+  }
+  
+  .badge-pill{
+    cursor: pointer;
+    background-color: #c81e10 !important;
+    color: black;
+    border-radius: 4px;
+    height: 16px;
+    width: 36px;
+    opacity: 0.40;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .badge-pill:hover {
+    background-color: red !important;
+    opacity:1;
+    color: white;
+  }
+ 
+  .ticket-empty {
+    max-height:636px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+ #text p {
+    text-align: center;
+    font-family:  Rubik,sans-serif;
+    font-weight: 500;
+    color: #999;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
