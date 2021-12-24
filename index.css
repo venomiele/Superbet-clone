@@ -1607,6 +1607,18 @@ li a {
   body {
     overflow-X: hidden;
   }
+  .footer-flex-container {
+    border-top: 2px solid black;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+    height: 30%;
+    margin-top: 20px;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+  }
   /* Navbar */
   .navbar {
     -webkit-box-orient: vertical;
