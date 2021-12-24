@@ -31,6 +31,7 @@ $bgimagesearch: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJb
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
   background-color: #f2f4f6 !important;
   box-sizing: border-box;
   transition: background 0.8s linear;
@@ -1201,10 +1202,11 @@ input[type=number] {
     font-weight: 700;
     color: white;
     font-size: 14px;
-    max-height: auto;
+    height: 30%;
     margin-top: 20px;
     width: 100%;
     bottom:0;
+    position: fixed;
     background-color: red;
     display: flex;
     flex-direction: row;
